@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.wyt.downloadprogressbutton.MainActivity">
+
+    <com.wyt.downloadprogressbutton.DownloadProgressButton
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        app:progressbtn_backgroud_color="#16B0CC"
+        app:progressbtn_backgroud_second_color="#FFF"
+        app:progressbtn_text_color="#16B0CC"
+        app:progressbtn_text_covercolor="#FFF" />
+</LinearLayout>

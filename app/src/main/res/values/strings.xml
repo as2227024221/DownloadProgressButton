@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DownLoadProgressButton</string>
+    <string name="downloaded">&#160;%s %%</string>
+</resources>
